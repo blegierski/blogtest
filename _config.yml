@@ -4,3 +4,13 @@ navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'About', link: '/about'}
   - {name: 'Contact', link: '/contact'}
+  
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
